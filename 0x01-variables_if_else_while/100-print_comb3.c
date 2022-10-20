@@ -3,13 +3,9 @@
 
 
 /**
-
  * main - a simple program that outputs 0-9 separated by commas
-
  *
-
  * Return: 0 on success
-
  */
 
 int main(void)
