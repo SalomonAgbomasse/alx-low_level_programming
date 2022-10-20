@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
  * main - a simple program that outputs 0-9 separated by commas
  *
@@ -17,7 +15,6 @@ int main(void)
 	int j;
 
 	int k;
-
 
 
 	for (i = 48; i < 56; i++)
