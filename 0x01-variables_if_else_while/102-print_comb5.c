@@ -38,7 +38,6 @@ int main(void)
 			{
 
 				for (; j < 58; j++)
-
 				{
 
 					putchar(ifirst);
