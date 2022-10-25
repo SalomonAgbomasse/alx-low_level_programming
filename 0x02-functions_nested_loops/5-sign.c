@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * pint_sign - checks the given number sign and print
- * @n: The number to be checked
- *
- * Return: 1 if number is greater than 0, 0 if equal 0, -1 otherwise
+ * print_sign - print the sign of a num
+ * @n: the num to be checked for
+ * Returns 1 and prints + if n is greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is than zero
  */
 
 int print_sign(int n)
@@ -21,7 +22,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar('0');
+		_putchar(0);
 		return (0);
 	}
 }
