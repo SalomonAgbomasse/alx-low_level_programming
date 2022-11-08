@@ -1,25 +1,27 @@
 #include "main.h"
 
 /**
- * print_sign -> prints sign based on condition
- * @n: argument passed
- * Return: 1, 0,-1
+ * print_sign - entry point
+ * @c: character
+ * Description: return 1 if c is in lower case
+ * Return: 1 or 0
  */
-int print_sign(int n)
+int print_sign(int c)
 {
-	if (n > 0)
+	if (c > 0)
 	{
 		_putchar('+');
 		return (1);
 	}
-	else if (n == 0)
+	else if (c == 0)
 	{
 		_putchar('0');
 		return (0);
 	}
-	else
+	else if (c < 0)
 	{
-		_putchar('\-1');
+		_putchar('-');
 		return (-1);
 	}
+	return (0);
 }
